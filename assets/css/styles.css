@@ -42,13 +42,14 @@ a {
 
 .btn {
     min-width: 205px;
-    padding: 15px 0;
+    padding: 14px 0;
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.67;
     border-radius: 999px;
+    border: 1px solid var(--primary-color);
     background: var(--primary-color);
 }
 
@@ -323,10 +324,11 @@ img {
 .services__item {
     display: flex;
     padding: 21px 18px 21px 22px;
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
 .services__item:hover {
-    border-radius: 10px;
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -337,6 +339,7 @@ img {
     font-size: 3rem;
     text-align: center;
     line-height: 6rem;
+    transition: 0.25s;
     border-radius: 50%;
     background: #eff6fd;
 }
@@ -381,6 +384,9 @@ img {
 }
 
 .about__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 86px;
     gap: 30px;
 }
 
