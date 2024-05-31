@@ -412,7 +412,7 @@ img {
     font-size: 2.6rem;
 }
 
-.about__item--sub-title {
+.about__item--desc {
     margin: 18px 0 16px;
     color: #575f66;
     font-weight: 300;
@@ -436,26 +436,22 @@ img {
     padding-top: 100px;
 }
 
-.features__img {
+.features__images {
     display: flex;
 }
 
-.features__img--1 {
+.features__img {
     width: 512px;
     height: 370px;
     border-radius: 6px;
-    background: lightgray -1.5px 0px / 108.398% 100% no-repeat;
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
 }
 
-.features__img--2 {
+.features__img:last-child {
     margin-top: 121px;
     margin-left: -274px;
     width: 332px;
-    height: 370px;
     object-position: 20% 0;
-    border-radius: 6px;
-    background: lightgray 50% / cover no-repeat;
 }
 
 .features__text {
