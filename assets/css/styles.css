@@ -497,6 +497,10 @@ img {
     margin-bottom: 38px;
 }
 
+.dentist__item:hover .dentist__item--avatar {
+    transform: scale(1.1);
+}
+
 .dentist__item--bg {
     display: flex;
     justify-content: center;
@@ -510,6 +514,7 @@ img {
     max-width: 100%;
     height: 290px;
     object-position: center;
+    transition: 0.25s;
 }
 
 .dentist__item--info {
@@ -519,6 +524,7 @@ img {
 
 .dentist__item--name {
     color: #10375c;
+    font-weight: 600;
     line-height: 1.75;
 }
 
