@@ -565,25 +565,24 @@ img {
 }
 
 .cta__content {
-    position: relative;
     border-radius: 4px;
     background: var(--primary-color);
 }
 
 .cta__img {
-    position: absolute;
-    bottom: 0;
-    left: 70px;
+    margin-top: -95px;
+    margin-left: 70px;
     width: 284px;
     height: 522px;
-    object-position: center top;
 }
 
 .cta__text {
-    padding: 76px 70px 76px 514px;
+    margin-right: 70px;
+    width: 586px;
 }
 
 .cta__text h2 {
+    max-width: 480px;
     color: #fff;
 }
 
