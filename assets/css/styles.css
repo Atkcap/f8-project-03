@@ -699,12 +699,12 @@ img {
     display: block;
     margin-bottom: 170px;
     padding: 100px 0;
+    text-align: center;
     background: #f6fbff;
 }
 
 .message__content h2 {
     position: relative;
-    text-align: center;
 }
 
 .message__content h2::before {
@@ -722,14 +722,8 @@ img {
     margin: 38px auto;
     width: 52.7%;
     color: #575f66;
-    text-align: center;
     font-weight: 300;
     line-height: 1.75;
-}
-
-.message__link {
-    display: flex;
-    justify-content: center;
 }
 
 /* ====== Footer ====== */
