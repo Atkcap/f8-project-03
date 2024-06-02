@@ -550,16 +550,27 @@
                 </div>
             </section>
         </main>
-        <!-- Footer: Bug footer__item -->
+        <!-- Footer -->
         <footer class="footer">
             <div class="main-content">
                 <div class="row footer__content">
                     <div class="footer__item">
                         <a href="#!" class="footer__home">
-                            <img
+                            <!-- <img
                                 src="./assets/img/Logoshine-smile.svg"
                                 alt="Logo shine-smile"
-                            />
+                            /> -->
+                            <div class="logo">
+                                <span class="logo__circle"></span>
+                                <span class="logo__text">
+                                    <span class="logo__brand">shine</span>
+                                    <span
+                                        class="logo__brand logo__brand--small"
+                                    >
+                                        smile
+                                    </span>
+                                </span>
+                            </div>
                         </a>
                         <p class="footer__item--desc logo--desc">
                             Exceptional dental care for all ages. Your great
@@ -582,6 +593,15 @@
                                 <a href="#!">Contact us</a>
                             </li>
                         </ul>
+                        <p class="footer__title">Support</p>
+                        <ul>
+                            <li>
+                                <a href="#!">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#!">Account information</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="footer__item">
                         <p class="footer__title">Support</p>
@@ -591,6 +611,12 @@
                             </li>
                             <li>
                                 <a href="#!">Account information</a>
+                            </li>
+                        </ul>
+                        <p class="footer__title">Support</p>
+                        <ul>
+                            <li>
+                                <a href="#!">Help center</a>
                             </li>
                         </ul>
                     </div>
@@ -607,18 +633,20 @@
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </div>
-                        <p class="footer__title">Subscribe</p>
+                        <p class="footer__title--subscribe">Subscribe</p>
                         <p class="footer__item--desc subscribe--desc">
                             Subscribe our newsletter for the latest update of
                             Dental care
                         </p>
-                        <form class="footer__email">
+                        <form action="" class="footer__email">
                             <input
                                 type="email"
+                                name="email"
+                                id="email"
                                 placeholder="Enter your email..."
                                 class="footer__input"
                             />
-                            <a href="#!" class="footer__btn">Subscribe</a>
+                            <a href="#!" class="btn footer__btn">Subscribe</a>
                         </form>
                     </div>
                 </div>
