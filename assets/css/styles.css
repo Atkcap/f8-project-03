@@ -11,6 +11,11 @@ body {
     font-family: "Sora", sans-serif;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #2e80ce;
     --bg-color: #10375c;
@@ -287,7 +292,7 @@ img {
 
 /* ====== Services ====== */
 .services {
-    margin: 70px 0 100px;
+    margin: 70px 0;
     padding-top: 100px;
 }
 
@@ -366,6 +371,7 @@ img {
 
 /* ====== About ====== */
 .about {
+    border-top: 30px solid #fff;
     background: #f6fbff;
 }
 
@@ -471,9 +477,13 @@ img {
 }
 
 /* ====== Dentist ====== */
+.dentist {
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
 .dentist__content {
     display: block;
-    margin-top: 70px;
     padding: 100px 0;
 }
 
